@@ -1,7 +1,9 @@
 var app = angular.module("githubViewer");
 app.controller('mainController', function($scope, $interval, $location) {
 
-  
+
+
+
   var decrementCountdown = function() {
     $scope.countdown -= 1;
     if ($scope.countdown < 1) {
@@ -23,9 +25,15 @@ app.controller('mainController', function($scope, $interval, $location) {
     $location.path("/user/" + username);
   };
 
-  $scope.username = "angular";
-  $scope.countdown = 5;
+  $scope.username = "Angular";
+  $scope.countdown = 10;
   startCountdown();
+
+
+    $scope.clearSpace = function(username){
+      $scope.username = '';
+      return $scope.username;
+    }
 
 
 });

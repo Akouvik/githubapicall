@@ -4,7 +4,10 @@
   <head>
     <script data-require="angular.js@1.5.8" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular.js"></script>
     <script data-require="angular-route@1.5.8" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
     <script src="mainController.js"></script>
     <script src="userController.js"></script>
@@ -13,8 +16,11 @@
   </head>
 
 
-    <body>
-      <h1>Github Viewer</h1>
+    <body class="container top-input">
+      <div class="heading">
+        <h1 id="header">Github Viewer</h1>
+        <p>Type in github username</p>
+      </div>
       <div ng-view></div>
     </body>
 

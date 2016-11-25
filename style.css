@@ -1,2 +1,60 @@
 /* Styles go here */
 
+html{
+  background-color:#272b30;
+}
+
+.top-input{
+  text-align: center;
+  padding: 30px;
+}
+
+.countdownarea{
+  padding-bottom: 50px;
+}
+
+
+#inputfield{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 8px 1px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-right: 15px;
+}
+.submitbtn{
+    background-color: #272b30; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+};
+#issues{
+  padding-bottom: 20px;
+}
+
+#contributors {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1em 1em;
+};
+
+
+#btmsection{
+  font-size: 2rem;
+  display: inline-block;
+}
+#btmsection:hover{
+  color: Red;
+}
