@@ -15,7 +15,7 @@ html{
 
 
 #inputfield{
-    width: 130px;
+    width: 300px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -27,18 +27,20 @@ html{
     transition: width 0.4s ease-in-out;
     margin-right: 15px;
 }
-.submitbtn{
-    background-color: #272b30; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 22px;
-    text-align: center;
-    text-decoration: none;
+#submitbtn{
+    /*background-color: #272b30; /* Green */*/
+    /*border: none;*/
+    /*color: white;*/
+    /*padding: 8px 22px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    /*font-size: 16px;*/
+    /*margin: 4px 2px;*/
+    margin: -16px -19px;
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 4px;
+    height: 43px;
 };
 #issues{
   padding-bottom: 20px;

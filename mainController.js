@@ -26,7 +26,7 @@ app.controller('mainController', function($scope, $interval, $location) {
   };
 
   $scope.username = "Angular";
-  $scope.countdown = 10;
+  $scope.countdown = 15;
   startCountdown();
 
 
